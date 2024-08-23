@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: copy-solar-system
+  namespace: solar-system
+spec:
+  template:
+    spec:
+      containers:
+      - image: siddharth67/solar-system:v6
+        name: copy-solar-system

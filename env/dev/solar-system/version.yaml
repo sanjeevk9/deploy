@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: solar-system
+  namespace: solar-system
+spec:
+  template:
+    spec:
+      containers:
+      - image: siddharth67/solar-system:v4
+        name: solar-system
