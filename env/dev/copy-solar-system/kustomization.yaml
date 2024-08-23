@@ -4,7 +4,7 @@ metadata:
   name: solar-app
 
 resources: 
-  - https://github.com/sanjeevk9/argocd/apps/copy-solar-system?ref=v1.0.0
+  - https://github.com/sanjeevk9/argocd/apps/copy-solar-system
 
 patchesStrategicMerge:
   - version.yaml
